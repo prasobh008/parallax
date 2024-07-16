@@ -1,0 +1,167 @@
+body {
+  margin: 0;
+}
+
+.wrapper {
+  height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  perspective: 10px;
+  padding: 0%;
+  margin: 0%;
+}
+
+header {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  transform-style: preserve-3d;
+  z-index: -1;
+}
+
+.background {
+  transform: translateZ(-10px) scale(2);
+}
+
+.foreground {
+  transform: translateZ(-5px) scale(1.5);
+}
+
+.background{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+.foreground{
+  position: absolute;
+  height: 80%;
+  width: 80%;
+  object-fit: contain;
+  z-index: -1;
+  left: 500px;
+}
+.parallax {
+  height: 100vh;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  padding: 0%;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  color: rgb(0, 0, 0);
+}
+.bg1{
+  background-image: url(./imgs/pexels-giacomo-grattoni-2463237-4084882.jpg);
+} 
+.bg2{
+  background-image: url(./imgs/pexels-jahoo-382177.jpg);
+} 
+.bg3{
+  background-image: url(./imgs/pexels-maria-fernanda-perez-1038050-2071720.jpg);
+}
+.content {
+  font-size: 1rem;
+  padding: 250px 100px 230px 950px;
+  color: rgb(255, 255, 255);
+  text-shadow: 0px px 3px black;
+}
+.content h1{
+  color: black;
+  font-weight: 700;
+}
+.wrapper2{
+  height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  perspective: 10px;
+  padding: 0%;
+  margin: 0%;
+
+}
+.bgg{
+  padding-top: 10%;
+  /* padding-bottom: 10%; */
+  background-image: url(./imgs/pexels-eberhardgross-1367192.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.cards1{
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+footer{
+  background-color: #ffffff;
+}
+.footer{
+  width: 100%;
+  padding: 80px 10px 10px 10px;
+}
+ .icon{
+  display: flex;
+  justify-content: center;
+}
+
+.social-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #565555;
+  color: #fff;
+  text-decoration: none;
+  transition: background-color 0.5s;
+  margin: 20px;
+}
+
+.social-icon:hover {
+  background-color: #000000;
+}
+
+.social-icon i {
+  font-size: 20px;
+}
+.item{
+  margin: 30px;
+}
+.item ul{
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+}
+.item ul li a{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  margin: 25px;
+  font-size: 15px;
+  font-weight: 600;
+  padding-top: 30px;
+}
+#g{
+  font-weight: 700;
+   color: rgb(247, 226, 0);
+    text-shadow: 0px 0px 1px rgb(255, 255, 255);
+  }
+  .bbb{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(161,166,167,1) 0%, rgba(255,255,255,1) 53%, rgba(32,149,255,0.9024859943977591) 100%); 
+   }
+   .hh span{
+    font-family: "Protest Revolution", sans-serif;
+    font-size: 1.6rem;
+     }
+  .hh{
+    margin-left: 20px;
+  }
+.nav-link{
+  margin-left:30px;
+}
+.nn a:hover{
+  font-weight: 700;
+}
